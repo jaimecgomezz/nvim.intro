@@ -1,5 +1,5 @@
 -- Define the lazy home path
-local lazypath = "/tmp/lazy/lazy.nvim"
+local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 
 -- Clone the lazy package manager.
 if not vim.loop.fs_stat(lazypath) then
@@ -18,7 +18,6 @@ vim.opt.rtp:prepend(lazypath)
 
 -- Configure the package manager.
 require("lazy").setup("plugins", {
-	root = "/tmp/lazy",
 	change_detection = { notify = false },
 	ui = {
 		icons = {
