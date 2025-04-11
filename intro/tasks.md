@@ -1,8 +1,11 @@
+---
+author: jaimecgomezz
+date: 2024-10-18
+---
+
 # Neovim by example
 
 Get to know Neovim enough to be dangerous.
-
-By: jaimecgomezz
 
 ---
 ## Quit Neovim. Let's get it out of the way.
